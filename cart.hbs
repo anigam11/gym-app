@@ -1,0 +1,12 @@
+{{#if req.session.user}}
+  <form action="/logout" method="get" style="display:inline;">
+    <button type="submit">Logout</button>
+  </form>
+{{/if}}
+
+<h1>Cart Items</h1>
+<ul> 
+  {{#each cartItems}}
+    <li>{{this.Nameofclass}}</li>
+  {{/each}}
+</ul>

@@ -1,0 +1,14 @@
+{{#each classes}}
+  <div class="class-card">
+    <img height="200px" width="300px" src="{{this.imageName}}" alt="{{this.name}} Image">
+    <h2>{{this.name}}</h2>
+    <p>{{this.length}} minutes</p>
+    <p>Cost: ${{priceFormatted this.length}}</p>
+
+      <form action="/class-add/{{this._id}}" method="post">
+      <input type="hidden" name="Idofclass" id="{{this._id}}" value="{{this._id}}">
+        <button method="submit">Book Class</button>
+      </form>
+
+  </div>
+{{/each}}

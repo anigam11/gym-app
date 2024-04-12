@@ -1,0 +1,25 @@
+
+<h1>Payment Portal </h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Name of Class</th>
+      <th>MSRP</th>
+      <th>Total Amount</th>
+      <th>Date of Payment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each payments}}
+      <tr>
+        <td>{{this.username}}</td>
+        <td>{{this.Nameofclass}}</td>
+        <td>{{this.msrpPrice}}</td>
+        <td>{{this.finalAmount}}</td>
+        <td>{{this.dateofPayment}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

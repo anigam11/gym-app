@@ -1,0 +1,249 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(2, 1, 1);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+  
+  .nav {
+    background-color: #1d1d1d;
+    padding: 10px 0;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: #ffcc00;
+    color: #1d1d1d;
+  }
+  
+  .nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    color: #444444;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #d49090;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .Welcome {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-top: -200px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .class-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px auto;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .class-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .class-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #002060;
+  }
+  
+  .class-card p {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .class-card button {
+    background-color: #002060;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+  
+  .class-card button:hover {
+    background-color: #fff;
+    color: #002060;
+    border: 1px solid #002060;
+  }
+  
+  .class-card:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .class-card:hover h2 {
+    color: #ff6f00;
+  }
+  
+  .class-card:hover p {
+    color: #666;
+  }
+  
+  
+  .login-container {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(234, 231, 231);
+    font-weight: normal;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+form[action="/logout"] {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  form[action="/logout"] button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  form[action="/logout"] button:hover {
+    background-color: #e60000;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    color: #ffffff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#002060;
+    box-shadow: 0 1px 3px #002060(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  
+  
